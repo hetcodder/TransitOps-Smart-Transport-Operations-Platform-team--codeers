@@ -1,0 +1,553 @@
+{
+  "vehicles": [
+    {
+      "id": "VO-102",
+      "name": "Tesla Semi",
+      "type": "Heavy Truck",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBvv-JgKaZyB4hcR9xSJFsQQeL2Pfnzzq5GuUc25lKJ0Z-wUYh41808MiICFm4oz6-zNGcIR1rUv8QpoC0Qp8Jp2aDdFCbIL2mbhhZgWUgE4GgUVVjhOlXdwBRnAeUb09RMmACscDDHTHBIBbqtyHEt0cBCIZu1iTV_C8dNdr6JFKIX4PMb_9mTQ_xq1ysV25Q_Vv3EhztUPoN7RvL-8w4BWGPJaancqKsDBKNZe4SYLjjLfg_v3_-onkw7eUv53uzM4T3sdU6SHRGo",
+      "status": "Active",
+      "fuelType": "EV",
+      "fuelLevel": 92,
+      "health": 95,
+      "odometer": 12402,
+      "maintenanceDate": "14 Oct 2023",
+      "region": "North Hub"
+    },
+    {
+      "id": "VO-088",
+      "name": "Volvo FH16",
+      "type": "Heavy Truck",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBSvtd3N_KUI26KU-zYCsGLJJ1S8aoWJNtR1gdLxPVEnGGYp2U1Cq_xwfX0BzH7ozO9YXbyx9SEV1MxVFliqx13suRsmZ1fGuBz9ADBIUTRqCEVks6S8sHXt9RsVVrzQ2eFr1xszppEHBCKKQ_c4fNABVBojK0zq5rUY5ZTWu1AplB2zM0tIrAwvBZ6sGlsY5awxXfSwdBOjUtf26LKFGxjfybuBHza9pTWC694plTglKnuOj_OxnLF9j2HAhNlbaBSVaDkiIPJTMl6",
+      "status": "Maintenance",
+      "fuelType": "Diesel",
+      "fuelLevel": 42,
+      "health": 42,
+      "odometer": 184330,
+      "maintenanceDate": "Overdue",
+      "region": "West Coast"
+    },
+    {
+      "id": "VO-215",
+      "name": "Rivian R1T",
+      "type": "Support Pickup",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuA8JhFafpl5NkfPxELy06bWql3eXYrylOFZuAC7sUtasLHoC4SdChliUroTYpeWI8dg5lhc0UnG9b0h84uzuMWALYf-UNSKabYZiko83pgjuw8jQFVaarXiDjUL8ck9AtwLtqVm6l8CwCsWj4wVbRw1lpm-VjHts1Wi2TylSfmxdvob9RFkvrx691QKb8QuF1GZVcO3d5gm5tqTfL_74uGIh_dBaSz9dc_eWu79rIa_2TCIpgwjnNLFVcMV4klR5oZfgHw-AAp0ZNQd",
+      "status": "In Transit",
+      "fuelType": "EV",
+      "fuelLevel": 68,
+      "health": 88,
+      "odometer": 4812,
+      "maintenanceDate": "02 Nov 2023",
+      "region": "Central Park"
+    },
+    {
+      "id": "VO-304",
+      "name": "Peterbilt 579",
+      "type": "Heavy Truck",
+      "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=300&auto=format&fit=crop&q=60&referrerPolicy=no-referrer",
+      "status": "Active",
+      "fuelType": "Diesel",
+      "fuelLevel": 80,
+      "health": 91,
+      "odometer": 45120,
+      "maintenanceDate": "18 Dec 2023",
+      "region": "North Hub"
+    },
+    {
+      "id": "VO-042",
+      "name": "Ford F-150 Lightning",
+      "type": "Support Pickup",
+      "image": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=300&auto=format&fit=crop&q=60&referrerPolicy=no-referrer",
+      "status": "Active",
+      "fuelType": "EV",
+      "fuelLevel": 74,
+      "health": 97,
+      "odometer": 9340,
+      "maintenanceDate": "05 Jan 2024",
+      "region": "West Coast"
+    }
+  ],
+  "drivers": [
+    {
+      "id": "TX-88219",
+      "name": "Marcus Sterling",
+      "level": 5,
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNuwximcX4S8j2nguXWUrGUQ9h53FQ_9he_km1JuQxO8bWIvESyylsdS6PEbo7gF5y7g_kc69yWmnjN1vSSmR5oGdL0dCoBtWUE50l3j32wLJLo3gVxmwXEcf_3BELkYW1_lMul-uG9_0wMwbXfXpZQfRat0-uM5gyopexmImbftJ85U3KdPRgscYLwd4GMMqf_UQRs7q5tlcd1hm0Ik0m5Km76HqFIzAnxCtrUWiFerSU0USOZHKG9PRyt7pItwZuuTHO04A_wfJG",
+      "status": "On Duty",
+      "assignedVehicle": "Tesla Semi (#VO-102)",
+      "experienceYears": 5,
+      "tripsCount": 245,
+      "safetyScore": 98,
+      "efficiencyRating": "A+",
+      "licenseExpiryDays": 12,
+      "region": "North Hub"
+    },
+    {
+      "id": "NY-44021",
+      "name": "Elena Rodriguez",
+      "level": 3,
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuA3xfnxvitsFCu8osnlmTaic_kvFIDHGGInG-MmaIQ4Haf_7B2lMKLes1YPx67V6LGycpjJvBfofwIDmc8scDAgRCAHunL-2RX7ygaMtVcwaIfosj8dzl3jb9P_3Q2qi-kb9OucmoX4NxrEsqS43atBN_FeiRY3TdD_YrIjbHD3yiErMBcNpLmWpVfaIAOweBPiT18g7yq1E9aWWOGKtbFc3aa79XgmTU9b3XUgeUx6pfQZ9XUS44ympVokG4K9FoVxqp8Z8pV2Rpm8",
+      "status": "Off Duty",
+      "assignedVehicle": "Unassigned (Station 4)",
+      "experienceYears": 2,
+      "tripsCount": 84,
+      "safetyScore": 92,
+      "efficiencyRating": "B+",
+      "licenseExpiryDays": 850,
+      "region": "West Coast"
+    },
+    {
+      "id": "CH-90112",
+      "name": "David Vance",
+      "level": 0,
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuADUg4J6eldvbh43uc9lHOMqjZSFyB3KKs9RXYyqnqTCS4XewtZ8RrUMGf9KGQn_lzXwQOr-Aq9lqmOk7-u522R6ugczicY5tfdUvGXnm5dwa9tXtkP4an76uaEPJStaclxEOL0-T9MD2W8e_jSIA8FSm6np_GX4xbUyCMKg_EjSJ_kOORyzCwr7jXlShkzJlWq72OukeBU04J0x1DKqbSE172WhHGmEmRFjWMBqezxMgDxe04GzB6fDD71I4izSWD_zgF6GJTpQZ94",
+      "status": "Suspended",
+      "assignedVehicle": "Revoked Access",
+      "experienceYears": 8,
+      "tripsCount": 1202,
+      "safetyScore": 64,
+      "efficiencyRating": "D-",
+      "licenseExpiryDays": 0,
+      "region": "Global"
+    },
+    {
+      "id": "SF-12005",
+      "name": "Jordan Lee",
+      "level": 4,
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuCi7Qpr6Gi_E01XCPMGJpH-MF8Ib6PysafGvoSplJxpNxdf9kVjwtAGFa11IYP_EvEPxtvwr52BMy50xYTPTe05jyZ8odnvwVBiXLaRP8YgkElXwvEIeoHrj2mZ2owegFoiyrFDpKEEsURwCMzcsmc17v09YOUcNtMVUBz-zjMV4r63cw7qDEjB2l8ZOk0Xz-aHCoyMmp4OvdgBNmebTfkiTD416iN7XYFP7g3i6H3vtfF47PFGkgz-pzY9-ygAjaP7eOWtWqDnBB7t",
+      "status": "On Duty",
+      "assignedVehicle": "AeroHaul-X (#VO-304)",
+      "experienceYears": 4,
+      "tripsCount": 156,
+      "safetyScore": 95,
+      "efficiencyRating": "A",
+      "licenseExpiryDays": 730,
+      "region": "Central Park"
+    }
+  ],
+  "trips": [
+    {
+      "id": "TRIP-1001",
+      "name": "Overnight Express Logistics",
+      "customer": "Amazon Prime Cargo",
+      "pickupLocation": "Seattle Fulfillment Station",
+      "dropLocation": "Portland Distribution Center",
+      "route": "Interstate-5 Southbound",
+      "vehicleId": "VO-102",
+      "driverId": "TX-88219",
+      "cargoDetails": "Consumer Electronics (High Value)",
+      "departureTime": "2026-07-12T22:00:00",
+      "expectedArrival": "2026-07-13T02:30:00",
+      "priority": "High",
+      "status": "Active",
+      "distance": 280,
+      "fuelConsumption": 112
+    },
+    {
+      "id": "TRIP-1002",
+      "name": "Cold-Chain Produce Run",
+      "customer": "Whole Foods Markets",
+      "pickupLocation": "Yakima Agricultural Hub",
+      "dropLocation": "Seattle Westside Grocery",
+      "route": "US-97 N to I-90 W",
+      "vehicleId": "VO-304",
+      "driverId": "SF-12005",
+      "cargoDetails": "Organic Apples & Pears (Refrigerated)",
+      "departureTime": "2026-07-12T14:30:00",
+      "expectedArrival": "2026-07-12T18:00:00",
+      "priority": "Medium",
+      "status": "Completed",
+      "distance": 230,
+      "fuelConsumption": 68
+    },
+    {
+      "id": "TRIP-1003",
+      "name": "Sovereign Microchip Shipment",
+      "customer": "Intel Tech Labs",
+      "pickupLocation": "Hillsboro Foundry Node",
+      "dropLocation": "SeaTac Tech Vault",
+      "route": "I-5 Northbound Corridor",
+      "vehicleId": "VO-215",
+      "driverId": "NY-44021",
+      "cargoDetails": "Next-Gen AI Processors",
+      "departureTime": "2026-07-13T09:00:00",
+      "expectedArrival": "2026-07-13T12:45:00",
+      "priority": "High",
+      "status": "Scheduled",
+      "distance": 310,
+      "fuelConsumption": 95
+    },
+    {
+      "id": "TRIP-1004",
+      "name": "Hazardous Material Bypass",
+      "customer": "Shell Chemical Corp",
+      "pickupLocation": "Anacortes Refinery",
+      "dropLocation": "Tacoma Industrial Depot",
+      "route": "State Route 9 Eastside Bypass",
+      "vehicleId": "VO-088",
+      "driverId": "TX-88219",
+      "cargoDetails": "Industrial Solvents (Class 3 Flammable)",
+      "departureTime": "2026-07-12T08:00:00",
+      "expectedArrival": "2026-07-12T11:30:00",
+      "priority": "High",
+      "status": "Delayed",
+      "distance": 190,
+      "fuelConsumption": 85
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "DSP-5001",
+      "tripId": "TRIP-1001",
+      "vehicleId": "VO-102",
+      "driverId": "TX-88219",
+      "route": "I-5 Southbound Corridor",
+      "dispatchTime": "2026-07-12T21:45:00",
+      "status": "In Transit",
+      "instructions": "Maintain eco-throttle. Avoid Portland bypass if weather reports stay clean."
+    },
+    {
+      "id": "DSP-5002",
+      "tripId": "TRIP-1002",
+      "vehicleId": "VO-304",
+      "driverId": "SF-12005",
+      "route": "US-97 N to I-90 W",
+      "dispatchTime": "2026-07-12T14:15:00",
+      "status": "Completed",
+      "instructions": "Log refrigerator battery telemetry before and after mountain pass."
+    },
+    {
+      "id": "DSP-5003",
+      "tripId": "TRIP-1003",
+      "vehicleId": "VO-215",
+      "driverId": "NY-44021",
+      "route": "I-5 Northbound Corridor",
+      "dispatchTime": "2026-07-13T08:45:00",
+      "status": "Assigned",
+      "instructions": "Armed guard dispatch. Verify biometric vehicle locks at gate."
+    },
+    {
+      "id": "DSP-5004",
+      "tripId": "TRIP-1004",
+      "vehicleId": "VO-088",
+      "driverId": "TX-88219",
+      "route": "State Route 9 Eastside Bypass",
+      "dispatchTime": "2026-07-12T07:45:00",
+      "status": "Failed",
+      "instructions": "Hazmat escort mandatory. Delayed due to tire pressure anomaly."
+    }
+  ],
+  "maintenances": [
+    {
+      "id": "MNT-7001",
+      "vehicleId": "VO-088",
+      "issueType": "Emergency",
+      "description": "Brake pad replacement and brake fluid pressure leak overhaul.",
+      "priority": "Critical",
+      "assignedMechanic": "Dave Miller (Master Tech)",
+      "estimatedCost": 1200,
+      "actualCost": 1350,
+      "status": "Overdue",
+      "serviceDate": "2026-07-10",
+      "nextServiceDate": "2026-10-10",
+      "mileage": 184330
+    },
+    {
+      "id": "MNT-7002",
+      "vehicleId": "VO-102",
+      "issueType": "Scheduled",
+      "description": "Cooling system check and solid-state battery thermal recalibration.",
+      "priority": "Medium",
+      "assignedMechanic": "Sarah Jenkins (EV Tech)",
+      "estimatedCost": 450,
+      "status": "In Progress",
+      "serviceDate": "2026-07-12",
+      "nextServiceDate": "2027-01-12",
+      "mileage": 12402
+    },
+    {
+      "id": "MNT-7003",
+      "vehicleId": "VO-215",
+      "issueType": "Inspection",
+      "description": "Annual safety permit certificate check and tire rotations.",
+      "priority": "Low",
+      "assignedMechanic": "Arthur Pendelton",
+      "estimatedCost": 150,
+      "actualCost": 150,
+      "status": "Completed",
+      "serviceDate": "2026-07-01",
+      "nextServiceDate": "2027-07-01",
+      "mileage": 4512
+    },
+    {
+      "id": "MNT-7004",
+      "vehicleId": "VO-042",
+      "issueType": "Repair",
+      "description": "Cabin air filter replacement and minor windshield crack fill.",
+      "priority": "Low",
+      "assignedMechanic": "Sarah Jenkins (EV Tech)",
+      "estimatedCost": 85,
+      "status": "Scheduled",
+      "serviceDate": "2026-07-15",
+      "nextServiceDate": "2026-10-15",
+      "mileage": 9340
+    }
+  ],
+  "fuelLogs": [
+    {
+      "id": "FUEL-2001",
+      "vehicleId": "VO-088",
+      "driverId": "TX-88219",
+      "date": "2026-07-11",
+      "fuelQuantity": 240,
+      "cost": 480,
+      "fuelStation": "Pilot Station #44 (I-5, WA)",
+      "mileage": 184100,
+      "paymentMethod": "Fleet Card (Visa)"
+    },
+    {
+      "id": "FUEL-2002",
+      "vehicleId": "VO-304",
+      "driverId": "SF-12005",
+      "date": "2026-07-12",
+      "fuelQuantity": 180,
+      "cost": 360,
+      "fuelStation": "Love's Travel Stop #112",
+      "mileage": 45120,
+      "paymentMethod": "Direct Invoice"
+    },
+    {
+      "id": "FUEL-2003",
+      "vehicleId": "VO-102",
+      "driverId": "TX-88219",
+      "date": "2026-07-12",
+      "fuelQuantity": 150,
+      "cost": 45,
+      "fuelStation": "Tesla Supercharger Network Node 9",
+      "mileage": 12402,
+      "paymentMethod": "Auto-Billing (Credit)"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-3001",
+      "category": "Fuel",
+      "amount": 480,
+      "description": "Diesel fill up at Pilot Station",
+      "vehicleId": "VO-088",
+      "driverId": "TX-88219",
+      "date": "2026-07-11",
+      "status": "Approved"
+    },
+    {
+      "id": "EXP-3002",
+      "category": "Maintenance",
+      "amount": 1350,
+      "description": "Emergency brake system repair invoice MNT-7001",
+      "vehicleId": "VO-088",
+      "date": "2026-07-10",
+      "status": "Approved"
+    },
+    {
+      "id": "EXP-3003",
+      "category": "Insurance",
+      "amount": 3200,
+      "description": "Quarterly fleet insurance premium renewal",
+      "date": "2026-07-01",
+      "status": "Approved"
+    },
+    {
+      "id": "EXP-3004",
+      "category": "Toll",
+      "amount": 120,
+      "description": "Good To Go Transponder automated toll passes",
+      "vehicleId": "VO-215",
+      "date": "2026-07-12",
+      "status": "Pending"
+    },
+    {
+      "id": "EXP-3005",
+      "category": "Salary",
+      "amount": 4500,
+      "description": "Contract courier driver disbursement Jordan Lee",
+      "driverId": "SF-12005",
+      "date": "2026-07-10",
+      "status": "Approved"
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-4001",
+      "name": "Commercial Vehicle Registration (RC)",
+      "category": "RC",
+      "relatedTo": "VO-102",
+      "expiryDate": "2027-04-18",
+      "status": "Active"
+    },
+    {
+      "id": "DOC-4002",
+      "name": "Commercial Fleet Liability Insurance",
+      "category": "Insurance",
+      "relatedTo": "VO-088",
+      "expiryDate": "2026-10-01",
+      "status": "Active"
+    },
+    {
+      "id": "DOC-4003",
+      "name": "Class A Commercial Driver License (CDL)",
+      "category": "License",
+      "relatedTo": "TX-88219",
+      "expiryDate": "2026-07-24",
+      "status": "Expiring Soon"
+    },
+    {
+      "id": "DOC-4004",
+      "name": "Emission Permit Certification",
+      "category": "Pollution",
+      "relatedTo": "VO-304",
+      "expiryDate": "2026-05-15",
+      "status": "Expired"
+    },
+    {
+      "id": "DOC-4005",
+      "name": "Heavy Hazmat Transport Permit",
+      "category": "Permit",
+      "relatedTo": "VO-088",
+      "expiryDate": "2027-01-30",
+      "status": "Active"
+    }
+  ],
+  "calendarEvents": [
+    {
+      "id": "CAL-9001",
+      "title": "Amazon Prime Overnighter (VO-102)",
+      "start": "2026-07-12T22:00:00",
+      "end": "2026-07-13T02:30:00",
+      "type": "Trip",
+      "description": "Amazon High-Value freight trip",
+      "color": "#e08d3c"
+    },
+    {
+      "id": "CAL-9002",
+      "title": "Volvo Emergency Pad Overhaul (VO-088)",
+      "start": "2026-07-10T08:00:00",
+      "end": "2026-07-10T17:00:00",
+      "type": "Maintenance",
+      "description": "Brake Pad and brake line overhaul",
+      "color": "#ef4444"
+    },
+    {
+      "id": "CAL-9003",
+      "title": "Marcus Sterling: Regular Shift",
+      "start": "2026-07-12T06:00:00",
+      "end": "2026-07-12T18:00:00",
+      "type": "Driver Shift",
+      "description": "12-hour driver shift",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "CAL-9004",
+      "title": "Tesla Battery Thermal Sweep (MNT-7002)",
+      "start": "2026-07-12T09:00:00",
+      "end": "2026-07-12T14:00:00",
+      "type": "Vehicle Service",
+      "description": "Sarah Jenkins standard diagnostic",
+      "color": "#10b981"
+    },
+    {
+      "id": "CAL-9005",
+      "title": "National Fleet Safety Audit",
+      "start": "2026-07-15T10:00:00",
+      "end": "2026-07-15T12:00:00",
+      "type": "Meeting",
+      "description": "Review federal safety scores with DOT team",
+      "color": "#8b5cf6"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOT-8001",
+      "message": "Vehicle VO-088 (Volvo FH16) is overdue for brake maintenance. Operation safety hazard warning.",
+      "type": "Maintenance",
+      "isRead": false,
+      "createdAt": "2026-07-12T08:00:00.000Z"
+    },
+    {
+      "id": "NOT-8002",
+      "message": "Trip TRIP-1004 (Hazardous Material Bypass) delayed at Everett due to front tire pressure warning.",
+      "type": "Alert",
+      "isRead": false,
+      "createdAt": "2026-07-12T08:45:00.000Z"
+    },
+    {
+      "id": "NOT-8003",
+      "message": "Driver license for Marcus Sterling expires in 12 days. High alert to schedule training proof submission.",
+      "type": "Safety",
+      "isRead": false,
+      "createdAt": "2026-07-12T09:12:00.000Z"
+    },
+    {
+      "id": "NOT-8004",
+      "message": "Expense toll submission EXP-3004 requires administrator verification for approval.",
+      "type": "Financial",
+      "isRead": true,
+      "createdAt": "2026-07-12T10:30:00.000Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "ACT-6001",
+      "userEmail": "abc123@gmail.com",
+      "action": "LOGIN_SUCCESS",
+      "target": "User Session Control",
+      "ipAddress": "192.168.1.45",
+      "timestamp": "2026-07-12T07:45:21.000Z"
+    },
+    {
+      "id": "ACT-6002",
+      "userEmail": "abc123@gmail.com",
+      "action": "CREATE_VEHICLE",
+      "target": "Ford F-150 Lightning (#VO-042)",
+      "ipAddress": "192.168.1.45",
+      "timestamp": "2026-07-12T07:55:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "email": "abc123@gmail.com",
+      "passwordHash": "$2b$12$xn4evDMmUdFZjRTpXV4G2e2Pady9oma3D2sBIT4nsDSN7/BlHlAqK",
+      "role": "ADMIN",
+      "name": "ABC123",
+      "isDeleted": false,
+      "createdAt": "2026-07-12T07:45:21.176Z",
+      "updatedAt": "2026-07-12T07:45:21.176Z"
+    },
+    {
+      "email": "fleet@transitops.com",
+      "passwordHash": "$2b$12$xn4evDMmUdFZjRTpXV4G2e2Pady9oma3D2sBIT4nsDSN7/BlHlAqK",
+      "role": "FLEET",
+      "name": "Fleet Commander",
+      "isDeleted": false,
+      "createdAt": "2026-07-12T07:45:21.176Z",
+      "updatedAt": "2026-07-12T07:45:21.176Z"
+    },
+    {
+      "email": "dispatch@transitops.com",
+      "passwordHash": "$2b$12$xn4evDMmUdFZjRTpXV4G2e2Pady9oma3D2sBIT4nsDSN7/BlHlAqK",
+      "role": "DISPATCH",
+      "name": "Dispatcher Prime",
+      "isDeleted": false,
+      "createdAt": "2026-07-12T07:45:21.176Z",
+      "updatedAt": "2026-07-12T07:45:21.176Z"
+    },
+    {
+      "email": "driver@transitops.com",
+      "passwordHash": "$2b$12$xn4evDMmUdFZjRTpXV4G2e2Pady9oma3D2sBIT4nsDSN7/BlHlAqK",
+      "role": "TECH",
+      "name": "Tech Courier",
+      "isDeleted": false,
+      "createdAt": "2026-07-12T07:45:21.176Z",
+      "updatedAt": "2026-07-12T07:45:21.176Z"
+    }
+  ],
+  "sessions": []
+}

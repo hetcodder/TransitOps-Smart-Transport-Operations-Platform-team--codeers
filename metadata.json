@@ -1,0 +1,6 @@
+{
+  "name": "TransitOps",
+  "description": "Full-stack enterprise mission control and fleet management dashboard for tracking vehicles, monitoring certified operators, and processing fleet telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Dynamic Theme Color Palette Mapping */
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  
+  --color-surface-container-lowest: var(--surface-lowest);
+  --color-surface-container-low: var(--surface-low);
+  --color-surface-container: var(--surface-mid);
+  --color-surface-container-high: var(--surface-high);
+  --color-surface-container-highest: var(--surface-highest);
+  
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  
+  --color-secondary-container: var(--secondary-container);
+  --color-on-secondary-container: var(--on-secondary-container);
+  --color-secondary: var(--secondary);
+  --color-on-secondary: var(--on-secondary);
+  
+  --color-error: var(--error);
+  --color-error-container: var(--error-container);
+  --color-on-error-container: var(--on-error-container);
+  
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
+}
+
+:root {
+  /* Default: Dark Theme variables */
+  --primary: #ffc174;
+  --on-primary: #472a00;
+  
+  --surface-lowest: #0c0e12;
+  --surface-low: #1a1c20;
+  --surface-mid: #1e2024;
+  --surface-high: #282a2e;
+  --surface-highest: #333539;
+  
+  --on-surface: #e2e2e8;
+  --on-surface-variant: #d8c3ad;
+  --outline: #a08e7a;
+  --outline-variant: #534434;
+  
+  --secondary-container: #0566d9;
+  --on-secondary-container: #e6ecff;
+  --secondary: #adc6ff;
+  --on-secondary: #002e6a;
+  
+  --error: #ffb4ab;
+  --error-container: #93000a;
+  --on-error-container: #ffdad6;
+  
+  --primary-container: #f59e0b;
+  --on-primary-container: #613b00;
+  
+  --bg-color: #0F1115;
+  --text-color: #e2e2e8;
+}
+
+html.light {
+  /* Light Theme variables */
+  --primary: #d97706;
+  --on-primary: #ffffff;
+  
+  --surface-lowest: #ffffff;
+  --surface-low: #f3f4f6;
+  --surface-mid: #e5e7eb;
+  --surface-high: #d1d5db;
+  --surface-highest: #9ca3af;
+  
+  --on-surface: #111827;
+  --on-surface-variant: #4b5563;
+  --outline: #6b7280;
+  --outline-variant: #e5e7eb;
+  
+  --secondary-container: #bfdbfe;
+  --on-secondary-container: #1e3a8a;
+  --secondary: #2563eb;
+  --on-secondary: #ffffff;
+  
+  --error: #dc2626;
+  --error-container: #fee2e2;
+  --on-error-container: #991b1b;
+  
+  --primary-container: #fef3c7;
+  --on-primary-container: #92400e;
+  
+  --bg-color: #f9fafb;
+  --text-color: #111827;
+}
+
+@layer base {
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.15s ease, color 0.15s ease;
+    overflow-x: hidden;
+  }
+}
+
+.glass-panel {
+  background: var(--surface-low);
+  border: 1px solid var(--outline-variant);
+}
+
+.glass-card {
+  background: var(--surface-low);
+  border: 1px solid var(--outline-variant);
+}
+
+.circular-progress {
+  background: radial-gradient(closest-side, var(--surface-low) 79%, transparent 80% 100%),
+              conic-gradient(var(--primary) calc(var(--percentage) * 1%), var(--surface-high) 0);
+}
+
+/* Animations */
+@keyframes subtleZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+.animate-subtle-zoom {
+  animation: subtleZoom 20s infinite alternate ease-in-out;
+}
